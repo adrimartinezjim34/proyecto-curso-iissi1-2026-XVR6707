@@ -1,11 +1,11 @@
-# Título Proyecto
+# ETSIILADOS.SL
 
-## Miembros del grupo LX-XXX-X (sustituir)
+## Miembros del grupo L7
 
-1. Apellidos, Nombre
-1. Apellidos, Nombre
-1. Apellidos, Nombre
-1. Apellidos, Nombre
+1. Moya Delgado, Fidel
+1. Martínez Jiménez, Adrián
+1. Morón Iglesias, Manuel
+1. Macías Sánchez, Marcos
 
 ## 1. Introducción al problema
 
