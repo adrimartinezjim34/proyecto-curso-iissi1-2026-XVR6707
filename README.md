@@ -21,6 +21,11 @@ Para solucionar estos problemas, se propone desarrollar un sistema de gestión q
 La terminología del tema elegido, no da lugar a confusión y los términos son generales.
 
 ## 3. Visión general del sistema
+  El sistema de gestión ETSIILADOS a desarrollar deberá centralizar la información necesaria para controlar el almacén de bebidas destiladas. Gestionará productos con sus datos comerciales y su stock mínimo; lotes y ubicaciones para conocer la procedencia y la posición física de cada unidad; existencias para calcular la cantidad disponible de cada lote en cada ubicación; clientes y empleados con sus datos identificativos y de contacto; pedidos realizados por los clientes; y movimientos de entrada y salida con la fecha, el empleado responsable y el detalle de los productos afectados.
+
+La información se almacenará de forma centralizada y segura, de modo que el stock se actualice al confirmar cada movimiento y pueda consultarse en tiempo real. El sistema conservará el historial de operaciones para garantizar la trazabilidad de la mercancía y evitar descuadres de inventario.
+
+La aplicación deberá ofrecer una interfaz sencilla e intuitiva, accesible únicamente para todos los usuarios, dando mayor control respecto a los movimientos según sean o no autorizados. Según su rol(usuario o empleado), podrán realizar pedidos únicamente o gestionar y actualizar el almacen.
 
 ### 3.1. Requisitos generales
 RG-01. Mantener el catálogo del almacén
