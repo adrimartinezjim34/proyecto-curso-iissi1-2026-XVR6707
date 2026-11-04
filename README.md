@@ -91,6 +91,8 @@ para [razón]
 -- fin entregable 1 --
 
 ## 5. Modelo conceptual
+<img width="3024" height="4032" alt="Modelado Conceptual" src="https://github.com/user-attachments/assets/4e30d2ac-cb8e-4d91-8b0d-65a6e54e7188" />
+
 
 ### 5.1. Diagramas de clases UML
 
