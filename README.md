@@ -47,7 +47,9 @@ Como cliente, quiero poder mantener contacto con el personal del almacén para l
 
 ### 3.2. Usuarios del sistema
 Gestor de tienda
-Responsable del almacén
+
+Administrador del almacén
+
 Cliente
 
 ## 4. Catálogo de requisitos
