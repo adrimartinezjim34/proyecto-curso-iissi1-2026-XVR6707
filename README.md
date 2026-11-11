@@ -17,7 +17,7 @@ Nuestro anterior sistema de gestión tenía varios fallos tanto para los cliente
 
 - Los trabajadores no podían conocer el stock disponible con certeza y tenían que revisar albaranes o contar a mano, provocando errores, pérdidas de tiempo y la aceptación de pedidos que contienen productos agotados, además la atención de las llamadas produce interrupciones en el flujo de trabajo y facilitaba las equivocaciones al contar inventario y apuntar pedidos.
   
-  Todo esto genera retrasos, errores y clientes insatisfechos. Por eso Etsiilados necesita un sistema informático que gestione el stock en tiempo real y permita a los clientes hacer y seguir sus pedidos de forma sencilla. 
+Todo esto genera retrasos, errores y clientes insatisfechos. Por eso Etsiilados necesita un sistema informático que gestione el stock en tiempo real y permita a los clientes hacer y seguir sus pedidos de forma sencilla. 
 
 
 ## 2. Glosario de términos
