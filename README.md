@@ -28,21 +28,23 @@ La información se almacenará de forma centralizada y segura, de modo que el st
 La aplicación deberá ofrecer una interfaz sencilla e intuitiva, accesible únicamente para todos los usuarios, dando mayor control respecto a los movimientos según sean o no autorizados. Según su rol(usuario o empleado), podrán realizar pedidos únicamente o gestionar y actualizar el almacen.
 
 ### 3.1. Requisitos generales
-RG-01. Mantener el catálogo del almacén
-  Como responsable del almacén, quiero mantener organizada la información de las referencias y sus proveedores, para identificar correctamente los productos que gestiona la empresa.
+RG-01. Control de proveedores
+  Como Gestor de tienda, quiero conocer la información de los proveedores, para tener un catalogo fiable.
+  
   
 RG-02. Controlar las existencias
-  Como responsable del almacén, quiero conocer las existencias por referencia, lote y ubicación, para disponer de un inventario fiable y localizar la mercancía.
+  Como responsable del almacén, quiero conocer correctamente existencias, para disponer de un inventario fiable.
   
 RG-03. Conservar la trazabilidad de los movimientos
-  Como responsable del almacén, quiero conservar la trazabilidad de las entradas y salidas de mercancía, para poder reconstruir los movimientos de cada lote y conocer quién los registró.
+  
   
 RG-04. Facilitar la supervisión del almacén
-  Como responsable del almacén, quiero consultar la situación del inventario y las necesidades de reposición, para detectar incidencias y planificar el abastecimiento.
+  
 
 ### 3.2. Usuarios del sistema
 Gestor de tienda
 Responsable del almacén
+Cliente
 
 ## 4. Catálogo de requisitos
 
