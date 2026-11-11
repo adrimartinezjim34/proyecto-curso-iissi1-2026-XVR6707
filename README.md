@@ -31,16 +31,16 @@ Albarán: Nota de entrega que firma la persona que recibe una mercancía
   La aplicación deberá ofrecer una interfaz sencilla e intuitiva, accesible únicamente para todos los usuarios, dando mayor control respecto a los movimientos según sean o no autorizados. Según su rol(cliente o empleado), podrán realizar pedidos únicamente o gestionar y actualizar el almacen.
 
 ### 3.1. Requisitos generales
-#### RG-01. Digitalización del almacén. 
+#### R.G.01. Digitalización del almacén. 
 Como administrador del almacén Etsiilados, quiero disponer de un sistema completamente digital para gestionar el almacén y eliminar procesos manuales.
 
-#### RG-02. Pedidos online
+#### R.G.02. Pedidos online
 Como Cliente, quiero realizar pedidos online y disponer de su seguimiento para conocer el estado de este sin realizar llamadas extra.
 
-#### RG-03. Control de proveedores.
+#### R.G.03. Control de proveedores.
 Como Gestor de tienda, quiero conocer la información de los proveedores, para tener un catálogo fiable.
 
-#### RG-04. Atención al cliente
+#### R.G.04. Atención al cliente
 Como cliente, quiero poder mantener contacto con el personal del almacén para la consulta de dudas o incidencias en los pedidos.
   
 
