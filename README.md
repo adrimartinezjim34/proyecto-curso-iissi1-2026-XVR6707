@@ -12,9 +12,10 @@
   Somos los dueños de la empresa Etsiilados la cual se basa en manejar un almacén de bebidas alcohólicas. Recibimos productos de distintos proveedores, los almacenamos y los distribuimos a múltiples establecimientos como bares, restaurantes y tiendas especializadas en nuestros productos.
 Hasta el momento, el almacén se había administrado de forma manual, a base de mantener los registros apuntados en albaranes físicos y atendiendo los pedidos de los clientes mediante llamadas telefónicas, lo cual dificulta y ralentiza la gestión de pedidos y del stock.
 Nuestro anterior sistema de gestión tenía varios fallos tanto para los clientes, como para los empleados de la empresa:
-Los clientes sólo podían ser atendidos por llamada y durante el horario de oficina, impidiendoles conocer el stock de productos disponibles, y una vez habiendo realizado el pedido, no podían conocer el estado del mismo sin consultar a la empresa por teléfono.
 
-  Los trabajadores no podían conocer el stock disponible con certeza y tenían que revisar albaranes o contar a mano, provocando errores, pérdidas de tiempo y la aceptación de pedidos que contienen productos agotados, además la atención de las llamadas produce interrupciones en el flujo de trabajo y facilitaba las equivocaciones al contar inventario y apuntar pedidos.
+- Los clientes sólo podían ser atendidos por llamada y durante el horario de oficina, impidiendoles conocer el stock de productos disponibles, y una vez habiendo realizado el pedido, no podían conocer el estado del mismo sin consultar a la empresa por teléfono.
+
+- Los trabajadores no podían conocer el stock disponible con certeza y tenían que revisar albaranes o contar a mano, provocando errores, pérdidas de tiempo y la aceptación de pedidos que contienen productos agotados, además la atención de las llamadas produce interrupciones en el flujo de trabajo y facilitaba las equivocaciones al contar inventario y apuntar pedidos.
   
   Todo esto genera retrasos, errores y clientes insatisfechos. Por eso Etsiilados necesita un sistema informático que gestione el stock en tiempo real y permita a los clientes hacer y seguir sus pedidos de forma sencilla. 
 
