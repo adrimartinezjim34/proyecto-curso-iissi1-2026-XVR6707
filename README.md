@@ -25,7 +25,7 @@ La terminología del tema elegido, no da lugar a confusión y los términos son 
 
 La información se almacenará de forma centralizada y segura, de modo que el stock se actualice al confirmar cada movimiento y pueda consultarse en tiempo real. El sistema conservará el historial de operaciones para garantizar la trazabilidad de la mercancía y evitar descuadres de inventario.
 
-La aplicación deberá ofrecer una interfaz sencilla e intuitiva, accesible únicamente para todos los usuarios, dando mayor control respecto a los movimientos según sean o no autorizados. Según su rol(usuario o empleado), podrán realizar pedidos únicamente o gestionar y actualizar el almacen.
+La aplicación deberá ofrecer una interfaz sencilla e intuitiva, accesible únicamente para todos los usuarios, dando mayor control respecto a los movimientos según sean o no autorizados. Según su rol(cliente o empleado), podrán realizar pedidos únicamente o gestionar y actualizar el almacen.
 
 ### 3.1. Requisitos generales
 RG-01. Control de proveedores
