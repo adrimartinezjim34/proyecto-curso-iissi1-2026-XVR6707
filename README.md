@@ -83,11 +83,23 @@ para [razón]
 - Descripción de la segunda comprobación a realizar
 - ...
 
-#### 4.1.2. Reglas de negocio
+### 4.1.2. Reglas de negocio
 
-##### R.N.01. Título regla negocio
+#### R.N.01. Venta Mínima
+Como Gestor de tienda, quiero que se establezca una venta mínima de 20€.
+Para que haya un margen de rentabilidad amplio.
 
-Descripción de la regla de negocio.
+#### R.N.02.Tiempo Máximo Cancelación
+Como Gestor de tienda, quiero que los pedidos sin incidencias no puedan ser cancelados una vez pasadas las 24 horas para ahorrar dinero y tiempo.
+
+#### R.N.03. Usuario único
+Como Cliente, quiero estar seguro de que mi usuario sea único para que no existan errores de identificación en el proceso.
+
+#### R.N.04. Un cliente no puede realizar dos pedidos simultáneos
+Como Gestor de tienda, quiero que cada cliente solo pueda tener un pedido activo para que no pueda realizar otro hasta recibir el que tiene en curso. 
+
+#### R.N.05. Stock mínimo obligatorio
+Como Administrador del almacén, quiero que cada producto tenga definido un stock mínimo, para que el sistema avise de cuándo hay que reponer.
 
 ### 4.2. Mapa de historias de usuario (opcional)
 
