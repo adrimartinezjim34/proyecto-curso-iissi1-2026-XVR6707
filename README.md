@@ -9,36 +9,39 @@
 
 ## 1. Introducción al problema
 
-  Somos los dueños de la empresa Etsiilados.SL la cual se basa en manejar un almacén de bebidas alcohólicas. Recibimos productos de distintos proveedores, los almacenamos y los distribuimos a múltiples establecimientos como bares, restaurantes y tiendas especializadas en nuestros productos.
+  Somos los dueños de la empresa Etsiilados la cual se basa en manejar un almacén de bebidas alcohólicas. Recibimos productos de distintos proveedores, los almacenamos y los distribuimos a múltiples establecimientos como bares, restaurantes y tiendas especializadas en nuestros productos.
+Hasta el momento, el almacén se había administrado de forma manual, a base de mantener los registros apuntados en albaranes físicos y atendiendo los pedidos de los clientes mediante llamadas telefónicas, lo cual dificulta y ralentiza la gestión de pedidos y del stock.
+Nuestro anterior sistema de gestión tenía varios fallos tanto para los clientes, como para los empleados de la empresa:
+Los clientes sólo podían ser atendidos por llamada y durante el horario de oficina, impidiendoles conocer el stock de productos disponibles, y una vez habiendo realizado el pedido, no podían conocer el estado del mismo sin consultar a la empresa por teléfono.
 
-  Construimos este proyecto con el objetivo de mejorar el control acerca de los productos que entran y salen de nuestras instalaciones, debido a que con el paso  del tiempo hemos notado que hay cierta deficiencia a la hora de saber con certeza el stock disponible. Esto genera ciertos problemas con nuestros clientes al concretar una fecha de entrega o con nosotros al cumplirla. Lo último que queremos es que busquen otros distribuidores,perdiendo ganancias.
-Además, queremos encontrar una forma de controlar mejor la ubicación de nuestros productos, para así ser más ágiles y competitivos en el sector.
+  Los trabajadores no podían conocer el stock disponible con certeza y tenían que revisar albaranes o contar a mano, provocando errores, pérdidas de tiempo y la aceptación de pedidos que contienen productos agotados, además la atención de las llamadas produce interrupciones en el flujo de trabajo y facilitaba las equivocaciones al contar inventario y apuntar pedidos.
+  
+  Todo esto genera retrasos, errores y clientes insatisfechos. Por eso Etsiilados necesita un sistema informático que gestione el stock en tiempo real y permita a los clientes hacer y seguir sus pedidos de forma sencilla. 
 
-Para solucionar estos problemas, se propone desarrollar un sistema de gestión que centralice toda la información relacionada con los productos, los lotes, los proveedores, los clientes, las ubicaciones y los movimientos de mercancía.
 
 ## 2. Glosario de términos
 
-La terminología del tema elegido, no da lugar a confusión y los términos son generales.
+Albarán: Nota de entrega que firma la persona que recibe una mercancía
 
 ## 3. Visión general del sistema
   El sistema de gestión ETSIILADOS a desarrollar deberá centralizar la información necesaria para controlar el almacén de bebidas destiladas. Gestionará productos con sus datos comerciales y su stock mínimo; lotes y ubicaciones para conocer la procedencia y la posición física de cada unidad; existencias para calcular la cantidad disponible de cada lote en cada ubicación; clientes y empleados con sus datos identificativos y de contacto; pedidos realizados por los clientes; y movimientos de entrada y salida con la fecha, el empleado responsable y el detalle de los productos afectados.
 
-La información se almacenará de forma centralizada y segura, de modo que el stock se actualice al confirmar cada movimiento y pueda consultarse en tiempo real. El sistema conservará el historial de operaciones para garantizar la trazabilidad de la mercancía y evitar descuadres de inventario.
+  La información se almacenará de forma centralizada y segura, de modo que el stock se actualice al confirmar cada movimiento y pueda consultarse en tiempo real. El sistema conservará el historial de operaciones para garantizar la trazabilidad de la mercancía y evitar descuadres de inventario.
 
-La aplicación deberá ofrecer una interfaz sencilla e intuitiva, accesible únicamente para todos los usuarios, dando mayor control respecto a los movimientos según sean o no autorizados. Según su rol(cliente o empleado), podrán realizar pedidos únicamente o gestionar y actualizar el almacen.
+  La aplicación deberá ofrecer una interfaz sencilla e intuitiva, accesible únicamente para todos los usuarios, dando mayor control respecto a los movimientos según sean o no autorizados. Según su rol(cliente o empleado), podrán realizar pedidos únicamente o gestionar y actualizar el almacen.
 
 ### 3.1. Requisitos generales
-RG-01. Control de proveedores
-  Como Gestor de tienda, quiero conocer la información de los proveedores, para tener un catalogo fiable.
-  
-  
-RG-02. Controlar las existencias
-  Como responsable del almacén, quiero conocer correctamente existencias, para disponer de un inventario fiable.
-  
-RG-03. Conservar la trazabilidad de los movimientos
-  
-  
-RG-04. Facilitar la supervisión del almacén
+#### RG-01. Digitalización del almacén. 
+Como administrador del almacén Etsiilados, quiero disponer de un sistema completamente digital para gestionar el almacén y eliminar procesos manuales.
+
+#### RG-02. Pedidos online
+Como Cliente, quiero realizar pedidos online y disponer de su seguimiento para conocer el estado de este sin realizar llamadas extra.
+
+#### RG-03. Control de proveedores.
+Como Gestor de tienda, quiero conocer la información de los proveedores, para tener un catálogo fiable.
+
+#### RG-04. Atención al cliente
+Como cliente, quiero poder mantener contacto con el personal del almacén para la consulta de dudas o incidencias en los pedidos.
   
 
 ### 3.2. Usuarios del sistema
