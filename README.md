@@ -53,17 +53,22 @@ Cliente
 
 ### 4.1. Requisitos funcionales
 
-#### R.F.01. Título requisito funcional
+#### R.F.01. Productos a punto de cumplir
+Como Administrador del almacén,quiero recibir un aviso en mi móvil cuando haya mercancía que vaya a caducar en menos de 48 horas,
+para ponerla a la venta y evitar tener que tirarla.
 
-Como [tipo de usuario]
-quiero [servicio]
-para [razón]
+#### R.F.02. Disponibilidad 24/7
+Como Gestor de tienda, quiero que la disponibilidad del sistema sea lo más cercana posible a 24/7 para facilitar las compras de los clientes
 
-**Prueba de aceptación**
-- Descripción de la primera comprobación a realizar
-- Descripción de la segunda comprobación a realizar
-- Se debe aplicar la regla de negocio R.N.XX.
-- ...
+#### R.F.03 Registrar pedidos
+Como cliente, quiero registrar pedidos de productos del almacén para mantener constancia de lo pedido.
+
+#### R.F.04. Cancelación de pedidos
+Como Cliente, quiero poder cancelar un pedido mientras no haya sido enviado, en caso de error o incidencia, para evitar pagar productos que no necesito.
+
+#### R.F.05 Cancelación de pedidos
+Como Gestor de tienda, quiero poder cancelar un pedido cuando no se pueda realizar por falta de stock o incidencia, para evitar fallos en la gestión.
+
 
 #### 4.1.1. Requisitos de información
 
