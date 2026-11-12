@@ -75,16 +75,137 @@ Como Gestor de tienda, quiero poder cancelar un pedido cuando no se pueda realiz
 
 #### 4.1.1. Requisitos de información
 
-##### R.I.01. Título requisito de información
+##### R.I.01. Información de los productos
 
-Como [tipo de usuario]
-quiero [servicio]
-para [razón]
+Como usuario del sistema, quiero disponer de la información de cada producto para conocer sus características y consultar su disponibilidad en el almacén.
+
+La información que se almacenará será:
+
+- Código, nombre y categoría del producto.
+- Stock mínimo establecido.
+- Existencias actuales, calculadas a partir de las cantidades disponibles en sus lotes y ubicaciones.
 
 **Prueba de aceptación**
-- Descripción de la primera comprobación a realizar
-- Descripción de la segunda comprobación a realizar
-- ...
+
+**Casos positivos**
+
+- Al consultar un producto existente, se muestran todos sus datos y la cantidad disponible coincide con la suma de sus existencias.
+- Si un producto está almacenado en varios lotes o ubicaciones, el sistema refleja correctamente su stock total.
+
+**Casos negativos**
+
+- Al introducir un código que no corresponde a ningún producto, el sistema informa de que no existen resultados.
+- No se permite registrar dos productos con el mismo código.
+
+##### R.I.02. Información del inventario
+
+Como administrador del almacén, quiero consultar la información de los lotes, ubicaciones y existencias para localizar la mercancía y conocer la cantidad disponible en cada zona.
+
+La información que se almacenará será:
+
+- Código del lote y producto al que pertenece.
+- Código y descripción de la ubicación.
+- Cantidad disponible de cada lote en cada ubicación.
+
+**Prueba de aceptación**
+
+**Casos positivos**
+
+- Al consultar un lote, se muestra su producto y el reparto de unidades entre las distintas ubicaciones.
+- La suma de las cantidades del lote por ubicación coincide con su disponibilidad total.
+
+**Casos negativos**
+
+- No se admite más de un registro de existencia para la misma pareja de lote y ubicación.
+- No se permiten cantidades negativas en las existencias.
+
+##### R.I.03. Información de los pedidos
+
+Como cliente, quiero disponer de la información de mis pedidos para comprobar qué productos he solicitado y conocer su estado.
+
+La información que se almacenará será:
+
+- Identificador del cliente que realiza el pedido.
+- Fecha de solicitud y estado del pedido.
+- Producto, proveedor y cantidad solicitada en cada línea.
+
+**Prueba de aceptación**
+
+**Casos positivos**
+
+- Al consultar un pedido, se muestran el cliente, la fecha, el estado y todas sus líneas.
+- Cada línea identifica claramente el producto, el proveedor seleccionado y la cantidad solicitada.
+
+**Casos negativos**
+
+- No se admite un pedido sin cliente o sin ninguna línea.
+- Se rechaza una línea si la cantidad no es válida o el proveedor indicado no ofrece ese producto.
+
+##### R.I.04. Información de los proveedores
+
+Como gestor de tienda, quiero consultar la información de los proveedores para conocer sus datos de contacto y los productos que suministra cada uno.
+
+La información que se almacenará será:
+
+- NIF y razón social.
+- Teléfono y correo electrónico.
+- Productos ofrecidos por el proveedor.
+
+**Prueba de aceptación**
+
+**Casos positivos**
+
+- Al consultar un proveedor, se muestran sus datos y el catálogo de productos que ofrece.
+- Un mismo producto puede aparecer asociado a varios proveedores.
+
+**Casos negativos**
+
+- No se permite registrar más de un proveedor con el mismo NIF.
+- Al consultar un NIF inexistente, el sistema informa de que el proveedor no está registrado.
+
+##### R.I.05. Información de los movimientos de almacén
+
+Como administrador del almacén, quiero disponer del historial de movimientos para conocer las entradas y salidas realizadas y mantener la trazabilidad del inventario.
+
+La información que se almacenará será:
+
+- Identificador, fecha y hora, tipo de movimiento y empleado responsable.
+- Estado de consolidación e importe de la venta cuando corresponda.
+- Cantidad movida y existencia afectada en cada detalle, incluyendo su producto, lote y ubicación.
+
+**Prueba de aceptación**
+
+**Casos positivos**
+
+- Al consultar un movimiento, se muestran sus datos generales, el empleado responsable y todos sus detalles.
+- Un movimiento consolidado permite identificar qué cantidades se añadieron o retiraron y de qué ubicaciones.
+
+**Casos negativos**
+
+- No se admite un movimiento sin empleado responsable o sin al menos un detalle.
+- Si se consulta un identificador inexistente, el sistema no muestra información de otros movimientos.
+
+##### R.I.06. Información de los empleados
+
+Como administrador del almacén, quiero disponer de la información de los empleados para identificar a los responsables de las operaciones y controlar su acceso al sistema.
+
+La información que se almacenará será:
+
+- Nombre y apellidos.
+- Nombre de usuario y rol.
+- Estado de la cuenta, que podrá ser activa o inactiva.
+
+**Prueba de aceptación**
+
+**Casos positivos**
+
+- Al consultar un empleado, se muestran sus datos, su rol y el estado actual de la cuenta.
+- Desde un movimiento se puede identificar al empleado que lo registró.
+
+**Casos negativos**
+
+- No se permite registrar dos empleados con el mismo nombre de usuario.
+- Una cuenta inactiva no puede acceder al sistema.
 
 ### 4.1.2. Reglas de negocio
 
