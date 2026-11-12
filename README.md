@@ -95,14 +95,11 @@ Para que haya un margen de rentabilidad amplio.
 #### R.N.02.Tiempo Máximo Cancelación
 Como Gestor de tienda, quiero que los pedidos sin incidencias no puedan ser cancelados una vez pasadas las 24 horas para ahorrar dinero y tiempo.
 
-#### R.N.03. Usuario único
-Como Cliente, quiero estar seguro de que mi usuario sea único para que no existan errores de identificación en el proceso.
-
-#### R.N.04. Un cliente no puede realizar dos pedidos simultáneos
+#### R.N.03.Un cliente no puede realizar dos pedidos simultáneos
 Como Gestor de tienda, quiero que cada cliente solo pueda tener un pedido activo para que no pueda realizar otro hasta recibir el que tiene en curso. 
 
-#### R.N.05. Stock mínimo obligatorio
-Como Administrador del almacén, quiero que cada producto tenga definido un stock mínimo, para que el sistema avise de cuándo hay que reponer.
+#### R.N.04. Stock mínimo para venta
+Como Administrador del almacén, quiero que cada producto tenga un stock mínimo de 3 unidades, para saber cuando se puede vender o no el producto.
 
 ### 4.2. Mapa de historias de usuario (opcional)
 
